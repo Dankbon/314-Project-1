@@ -7,7 +7,7 @@ public class Project {
 
     public static void main(String[] args) {
 
-        Scanner kb = new Scanner(System.in);
+        Scanner kb = new Scanner(System.in); // Gets input from user
         char p; // Declares variable p
         char q; // Declared variable q
 
@@ -16,9 +16,9 @@ public class Project {
         System.out.print("Please enter T of F for q: "); // Prompts for a value for q
         q = kb.next().charAt(0); // Scans in the value
 
-        kb.close();
-        System.out.println("-----------------------------");
-        printResults(p, q);
+        kb.close(); // Closes the scanner
+        System.out.println("-----------------------------"); // Prints out a line for separation
+        printResults(p, q); // Prints the results
 
     }
 
@@ -74,13 +74,13 @@ public class Project {
     public static void biConditional(char p, char q) { // Method for p<->q
 
         if (p == 'T' && q == 'T') {
-            System.out.println("Conditional: T");
+            System.out.println("BiConditional: T");
         } else if (p == 'T' && q == 'F') {
-            System.out.println("Conditional: F");
+            System.out.println("Biconditional: F");
         } else if (p == 'F' && q == 'T') {
-            System.out.println("Conditional: F");
+            System.out.println("Biconditional: F");
         } else {
-            System.out.println("Conditional: T");
+            System.out.println("Biconditional: T");
         }
     }
 
