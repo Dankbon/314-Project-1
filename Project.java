@@ -1,6 +1,10 @@
 //Created by Matthew Drew on 9/10/21
 //COSC 314 - Project 1 - Prof. Cowan
 
+/*
+    It works well. I just had to make sure I used an uppercase T/F to get the right answers.
+*/
+
 import java.util.*;
 
 public class Project {
@@ -43,6 +47,7 @@ public class Project {
         } else {
             System.out.println("Disjunction: F");
         }
+
     }
 
     public static void exclusiveOr(char p, char q) { // Method for an XOR gate
@@ -56,6 +61,7 @@ public class Project {
         } else {
             System.out.println("Exclusive Or: F");
         }
+    
     }
 
     public static void conditional(char p, char q) { // Method for p->q
@@ -69,6 +75,7 @@ public class Project {
         } else {
             System.out.println("Conditional: T");
         }
+
     }
 
     public static void biConditional(char p, char q) { // Method for p<->q
@@ -82,6 +89,7 @@ public class Project {
         } else {
             System.out.println("Biconditional: T");
         }
+      
     }
 
     public static void printResults(char p, char q) { // Method to print all results
