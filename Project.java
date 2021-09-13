@@ -1,5 +1,6 @@
 //Created by Matthew Drew on 9/10/21
 //COSC 314 - Project 1 - Prof. Cowan
+//Looks Good - Ruben Maidaniuc
 
 import java.util.*;
 
